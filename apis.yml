@@ -1,7 +1,24 @@
 aid: 10percenthappier
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/10percenthappier.png
 name: 10percenthappier
-description: 10percenthappier is a company surfaced as a portfolio company of techstars and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 10percenthappier (now branded Happier Meditation) is a personalized meditation
+  and mindfulness company offering a consumer mobile app with over 500 guided meditations,
+  multi-day courses, and daily mindfulness practices led by expert teachers. The app
+  adapts to the user with monthly check-ins and daily recommendations, and is available
+  on iOS and Android. Surfaced as a portfolio company of Techstars and added to the
+  API Evangelist network. The company operates a consumer product and does not currently
+  publish a public developer API, developer portal, or API documentation.
 url: https://raw.githubusercontent.com/api-evangelist/10percenthappier/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,6 +31,12 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Meditation
+- Mindfulness
+- Wellness
+- Health
+- Consumer App
+- Mobile
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +44,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/10percenthappier-domain-security.yml
 - type: Website
-  url: https://10percenthappier.com/
+  url: https://www.meditatehappier.com/
+- type: Blog
+  url: https://happiermeditation.com/meditationblog
+- type: HelpCenter
+  url: https://support.meditatehappier.com/
+- type: PrivacyPolicy
+  url: https://happiermeditation.com/privacy-policy
+- type: TermsOfService
+  url: https://happiermeditation.com/terms-of-service
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
