@@ -2,6 +2,13 @@
   "repo": "10percenthappier",
   "feeds": [
     {
+      "source": "https://happiermeditation.com/meditationblog",
+      "feed_url": "https://happiermeditation.com/meditationblog",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
       "source": "https://www.meditatehappier.com/",
       "feed_url": "https://www.meditatehappier.com/",
       "title": "",
@@ -10,5 +17,5 @@
     }
   ],
   "post_count": 0,
-  "fetched": "2026-10-03T12:30:02Z"
+  "fetched": "2026-10-10T13:15:00Z"
 }
